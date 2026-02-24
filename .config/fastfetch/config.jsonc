@@ -2,9 +2,9 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "~/dotfiles/.config/fastfetch/window.txt",
+        "source": "~/dotfiles/.config/fastfetch/caleb.txt",
         "padding": {
-            "top": 2,
+            "top": 1,
             "left": 2
         },
         "color": {
@@ -42,15 +42,19 @@
             "type": "kernel"
         },
         {
-            "key": "│ {#35} term    {#keys}│",
+            "key": "│ {#35} de/wm   {#keys}│",
+            "type": "wm",
+        },
+        {
+            "key": "│ {#36} term    {#keys}│",
             "type": "terminal"
         },
         {
-            "key": "│ {#36} shell   {#keys}│",
+            "key": "│ {#31} shell   {#keys}│",
             "type": "shell"
         },
         {
-            "key": "│ {#31}󰝚 media   {#keys}│",
+            "key": "│ {#32}󰝚 media   {#keys}│",
             "type": "media"
         },
         {
@@ -58,28 +62,28 @@
             "type": "custom"
         },
         {
-            "key": "│ {#32}󰌢 PC      {#keys}│",
+            "key": "│ {#33}󰌢 PC      {#keys}│",
             "type": "host"
         },
         {
-            "key": "│ {#33}󰍛 cpu     {#keys}│",
+            "key": "│ {#34}󰍛 cpu     {#keys}│",
             "type": "cpu",
             "showPeCoreCount": true
         },
         {
-            "key": "│ {#34}󰢮 gpu     {#keys}│",
+            "key": "│ {#35}󰢮 gpu     {#keys}│",
             "type": "gpu"
         },
         {
-            "key": "│ {#35}󰘚 memory  {#keys}│",
+            "key": "│ {#36}󰘚 memory  {#keys}│",
             "type": "memory"
         },
         {
-            "key": "│ {#36}󰉉 disk    {#keys}│",
+            "key": "│ {#31}󰉉 disk    {#keys}│",
             "type": "disk"
         },
         {
-            "key": "│ {#31}󰇄 display {#keys}│",
+            "key": "│ {#32}󰇄 display {#keys}│",
             "type": "display"
         },
         {
