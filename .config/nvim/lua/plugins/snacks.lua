@@ -27,6 +27,11 @@ return {
           },
         },
       },
+      notifier = {
+        enabled = true,
+        max_width = 120,
+        width = { min = 40, max = 120 },
+      },
     },
   },
 }

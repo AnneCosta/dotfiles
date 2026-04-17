@@ -241,6 +241,8 @@
 
 [color]
 
+#source = '~/.config/cava/themes/dynamic_matugen'
+
 # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
 # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires
 # a terminal that can change color definitions such as Gnome-terminal or rxvt.
@@ -256,15 +258,16 @@
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-gradient = 1
-gradient_color_1 = '#537967'
-gradient_color_2 = '#749a82'
-gradient_color_3 = '#95ba9c'
-gradient_color_4 = '#b6dbb7'
-; gradient_color_5 = '#cca633'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
+; gradient = 1
+; gradient_count = 2
+; gradient_color_1 = '#537967'
+; gradient_color_2 = '#749a82'
+; gradient_color_3 = '#95ba9c'
+; gradient_color_2 = '#B6DBB7'
+; gradient_color_5 = '#95BA9C'
+; gradient_color_6 = '#A6CBB1'
+; gradient_color_7 = '#B6DBB7'
+; gradient_color_8 = '#C7EBD2'
 
 
 # Horizontal is only supported on noncurses output.
@@ -288,7 +291,7 @@ gradient_color_4 = '#b6dbb7'
 
 # use theme file instead of defining colors in this file
 # themes are located in $HOME/.config/cava/themes
-; theme = 'none'
+theme = 'dynamic_matugen'
 
 
 [smoothing]
